@@ -21,9 +21,38 @@ img {
 
 figure {
   margin: 0;
+  width: 25%;
+  position: relative;
+}
+
+figure, .film-details {
+  display: inline-block;
+  padding: 5px;
 }
 
 .film {
+  position: relative;
+  overflow: hidden;
   width: 50%;
   margin: 40px auto;
+  border: 2px solid grey;
+}
+
+.film-details {
+  width: 70%;
+  vertical-align: top;
+}
+
+.action-like {
+  position: absolute;
+  bottom: 4px;
+  right: 4px;
+  color: red;
+}
+
+.action-watch-later {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  color: red;
 }
